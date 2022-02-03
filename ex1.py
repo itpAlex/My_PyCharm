@@ -1,5 +1,6 @@
-s = "python"
-t = "upper"
+a = 2
+b = 3
+c = -4
 
-res = s.upper() if t == 'upper' else s
-print(res)
+d = (a if a > c else c) if a > b else (b if b > c else c)
+print(d)
