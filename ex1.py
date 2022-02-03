@@ -6,5 +6,5 @@ b = -7
 # else:
 #    res = b
 
-res = abs(a) if a > b else abs(b)
+res = print(a) if a > b else print(b)
 print(res)
