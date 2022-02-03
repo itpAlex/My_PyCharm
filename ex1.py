@@ -1,10 +1,5 @@
-a = -12
-b = -7
+s = "python"
+t = "upper"
 
-# if a > b:
-#    res = a
-# else:
-#    res = b
-
-res = print(a) if a > b else print(b)
+res = s.upper() if t == 'upper' else s
 print(res)
