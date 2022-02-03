@@ -1,10 +1,10 @@
-a = 2
-b = 7
+a = -12
+b = -7
 
 # if a > b:
 #    res = a
 # else:
 #    res = b
 
-res = a +2 if a > b else b - 4
+res = abs(a) if a > b else abs(b)
 print(res)
