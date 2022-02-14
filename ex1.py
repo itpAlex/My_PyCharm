@@ -1,2 +1,6 @@
-print(2+4)
-print("Hello world!")
+a, b = 1, 2
+print(a, b)
+a, b = b, a
+print(a, b)
+
+print(type(a))
