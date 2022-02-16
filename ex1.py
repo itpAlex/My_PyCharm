@@ -1,6 +1,5 @@
-a, b = 1, 2
-print(a, b)
-a, b = b, a
-print(a, b)
-
-print(type(a))
+import math
+n, m = 40, 5
+c = 20
+d = (n + m) / c
+print(math.ceil(d))
