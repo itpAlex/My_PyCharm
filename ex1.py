@@ -1,7 +1,3 @@
-import math
-x = 20
-y = x - (x * 0.1)
-f = 500
-z = f / y
-print(math.floor(z))
-
+a = float(input(" Введите длину прямоугольника: "))
+b = float(input(" Введите шириину прямоугольника: "))
+print("Периметр: ", 2 * (a + b))
